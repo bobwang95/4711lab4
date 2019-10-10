@@ -1,0 +1,115 @@
+div {
+  margin: auto;
+}
+
+.top {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(233, 227, 227);
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  display: flex;
+  justify-content: left;
+  padding-left: 10px;
+}
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.bar input {
+  text-align: center;
+  width: 80%;
+  height: 30px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 0.5px;
+  color: rgba(214, 212, 212, 0.918);
+}
+.bar button {
+  width: 15%;
+  height: 35px;
+  margin-left: 10px;
+}
+#newform {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: none;
+}
+.namebar input {
+  text-align: center;
+  color: gray;
+}
+#name {
+  border-radius: 4px;
+  border-width: 0.5px;
+  border-style: solid;
+  width: 25%;
+  height: 30px;
+}
+#description {
+  border-radius: 4px;
+  border-width: 0.5px;
+  border-style: solid;
+  width: 25%;
+  height: 30px;
+}
+#picture {
+  border-radius: 4px;
+  border-width: 0.5px;
+  border-style: solid;
+  width: 25%;
+  height: 30px;
+}
+#addbtn {
+  width: 15%;
+  height: 35px;
+}
+
+.people {
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: rgb(233, 227, 227);
+  width: 450px;
+  height: 110px;
+}
+p.name {
+  font-weight: bold;
+}
+.info {
+  width: 200px;
+  display: inline-block;
+}
+.people:hover {
+  background-color: rgb(240, 240, 240);
+}
+.pic1 {
+  margin: 10px;
+  float: left;
+  width: 20%;
+  border-radius: 4px;
+}
+.delButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+
+  width: 60px;
+  height: 35px;
+  vertical-align: middle;
+  margin-bottom: 70px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+#list {
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
